@@ -11,6 +11,7 @@ a:link{
     background-color: #064c67;
     color: white;
     font-weight: bolder;
+    padding-bottom: 20px;
 }
 
 .navbar{
@@ -44,9 +45,12 @@ a:link{
 }
 
 .image-name img{
-    width: 350px;
-    height: 250px;
+    width: 200px;
+    height: 150px;
     border-radius: 50%;
+    border: 10px;
+    border-style: solid;
+    border-color:  white;
 }
 
 .image-name p, h1{
@@ -61,6 +65,8 @@ a:link{
 .texts{
     text-align: justify;
     background-color: #5ba0ba;
+    padding-top: 50px;
+    color: white;
 }
 
 .texts h2{
@@ -68,10 +74,23 @@ a:link{
 }
 
 .section1{
-    padding-top: 50px;
     margin: 0 25%;
-    color: white;
     font-weight: bolder;
+    background-color: #064c67;
+    border-radius: 20px;
+    padding: 30px 0;
+}
+
+.section2, .section3{
+    margin: 50px 25%;
+    font-weight: bolder;
+    background-color: #064c67;
+    border-radius: 20px;
+    padding: 30px 0;    
+}
+
+.article p{
+    margin: 30px;
 }
 
 .footer{
