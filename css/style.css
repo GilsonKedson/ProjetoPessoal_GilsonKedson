@@ -16,7 +16,7 @@ a:link{
 
 .navbar{
     margin: 0;
-    background-color: #5ba0ba;
+    background-color: #5493ab;
 }
 
 .navbar img{
@@ -39,16 +39,16 @@ a:link{
 }
 
 .navegation a:hover li:hover{
-    color: #5ba0ba;
+    color: #5493ab;
     background-color: white;
     border-radius: 20px;
 }
 
 .image-name img{
-    width: 200px;
-    height: 150px;
+    width: 230px;
+    height: 160px;
     border-radius: 50%;
-    border: 10px;
+    border: 5px;
     border-style: solid;
     border-color:  white;
 }
@@ -62,9 +62,10 @@ a:link{
     margin-bottom: 0;
 }
 
+
 .texts{
     text-align: justify;
-    background-color: #5ba0ba;
+    background-image: radial-gradient(circle, rgba(20, 89, 145, 0.445), #064c67, #5493ab);
     padding-top: 50px;
     color: white;
     padding-bottom: 50px;
@@ -79,6 +80,9 @@ a:link{
     font-weight: bolder;
     background-color: #064c67;
     border-radius: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
     padding: 30px 0;
     height: 30%;
 }
@@ -88,6 +92,9 @@ a:link{
     font-weight: bolder;
     background-color: #064c67;
     border-radius: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
     padding: 30px 0;
     height: 30%;
         
@@ -135,7 +142,7 @@ a:link{
 }
 
 .footer a{
-    color: #5ba0ba;
+    color: #5493ab;
     margin-top: 20px;
 }
 
