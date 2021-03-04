@@ -160,7 +160,7 @@ a:link{
     padding-bottom: 15px;
 }
 
-/*media querys (Tentando ser responsivo)*/
+/*media querys (deixando quase responsivo)*/
 
 @media only screen and (max-width: 850px){
     .navbar img{
@@ -179,13 +179,13 @@ a:link{
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
     .section1, .section2, .section3{
         margin:50px 0;
     }
 
     .navbar img{
-        margin: 0 38%;
+        margin: 0 32%;
     }
 
     .navegation{
