@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 a:link{
@@ -12,6 +13,7 @@ a:link{
     color: white;
     font-weight: bolder;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .navbar{
@@ -171,10 +173,6 @@ a:link{
 }
 
 @media only screen and (max-width: 787px){
-    .navbar img{
-        margin: 0 40%;
-    }
-
     .navegation{
         margin: 5px 13%;
         font-size: 18px;
@@ -184,5 +182,14 @@ a:link{
 @media only screen and (max-width: 450px){
     .section1, .section2, .section3{
         margin:50px 0;
+    }
+
+    .navbar img{
+        margin: 0 38%;
+    }
+
+    .navegation{
+        margin: 5px 0;
+        font-size: 14px;
     }
 }
