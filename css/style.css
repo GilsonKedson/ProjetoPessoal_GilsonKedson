@@ -157,3 +157,32 @@ a:link{
     font-weight: bolder;
     padding-bottom: 15px;
 }
+
+/*media querys (Tentando ser responsivo)*/
+
+@media only screen and (max-width: 850px){
+    .navbar img{
+        margin: 0 40%;
+    }
+
+    .navegation{
+        margin: 5px 12%;
+    }
+}
+
+@media only screen and (max-width: 787px){
+    .navbar img{
+        margin: 0 40%;
+    }
+
+    .navegation{
+        margin: 5px 13%;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .section1, .section2, .section3{
+        margin:50px 0;
+    }
+}
