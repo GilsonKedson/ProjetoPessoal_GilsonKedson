@@ -7,91 +7,86 @@
     <meta name="author" content="Gilson Kedson dos Santos Silva">
     <title>Projeto Pessoal ProSEmpre</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="sortcut icon" href="imagens/logo-tempore.png" type="image/png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="sortcut icon" href="imagens/logo.png" type="image/png">
 </head>
-
 <body>
-    <div class="header">
-        <div class="navbar">
-            <img src="imagens/logo-tempore.png" alt="logo">
-            <ul class="navegation">
-                <a href="#">
-                    <li>Inicio</li>
-                </a>
-                <a href="#section1">
-                    <li>Quem sou eu</li>
-                </a>
-                <a href="#section2">
-                    <li>Curiosidades</li>
-                </a>
-                <a href="#section3">
-                    <li>Interesses</li>
-                </a>
-                <a href="#section4">
-                    <li>Contato</li>
-                </a>
+    <header id="header-page">
+        <nav>
+            <img src="imagens/logo.png" alt="logo da página">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#section-quem-sou-eu">Quem sou eu</a>
+                </li>
+                <li>
+                    <a href="#section-curiosidades">Curiosidades</a>
+                </li>
+                <li>
+                    <a href="#section-interesses">Interesses</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
             </ul>
-        </div>
-        <div class="image-name">
-            <p><img src="imagens/perfil-image2.jpg" alt="Gilson Kedson"></p>
-            <h1>Gilson Kedson</h1>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="texts">
-        <div id = "section1" class="section1">
-            <div class="article">
+    <section id ="section-page-main">
+        <div>
+            <img src="imagens/perfil-image2.jpg" alt="Foto de Gilson Kedson">
+        </div>
+        <h2>Gilson Kedson</h2>
+    </section>
+
+    <div class="section-page">
+        <section class="section" id="section-quem-sou-eu">
+            <article>
                 <h2>Quem sou eu?</h2>
                 <p>
-                   Opa! Meu nome é Gilson Kedson dos Santos Silva, tenho 20 anos e estou cursando 
-                   Bacharelado em Ciências e Tecnologia pela UFRN.
+                Opa! Meu nome é Gilson Kedson dos Santos Silva, tenho 20 anos e estou cursando 
+                Bacharelado em Ciências e Tecnologia pela UFRN.
 
-                   Sou natural de Natal, mas desde que nasci moro em Ceará-Mirim.
+                Sou natural de Natal, mas desde que nasci moro em Ceará-Mirim.
 
-                   Antes da UFRN, tive a oportunidade de concluir o curso de Informática integrado ao 
-                   ensino médio, onde criei o gosto pelas áreas tecnológicas. Participei de projetos
-                   e também estagiei ao longo do curso e isso fez com que o interesse pela área ficasse mais forte.
+                Antes da UFRN, tive a oportunidade de concluir o curso de Informática integrado ao 
+                ensino médio, onde criei o gosto pelas áreas tecnológicas. Participei de projetos
+                e também estagiei ao longo do curso e isso fez com que o interesse pela área ficasse mais forte.                
                 </p>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div id="section2" class="section2">
-            <div class="article">
+        <section class="section" id="section-curiosidades">
+            <article>
                 <h2>Curiosidades</h2>
                 <ul>
-                    <li class="art">Sou eclético quanto a gêneros musicais, porém ouço mais rap.</li>
-                    <li class="art">Já tinha base em HTML e CSS, mas não sou muito chegado ao front-end.</li>
-                    <li class="art">C&T não era minha primeira opção.</li>
-                    <li class="art">Curto animes.</li>
+                    <li><p class="list">Sou eclético quanto a gêneros musicais, porém ouço mais rap.</p></li>
+                    <li><p class="list">Já tinha base em HTML e CSS, mas não sou muito chegado ao front-end.</p></li>
+                    <li><p class="list">C&T não era minha primeira opção.</p></li>
+                    <li><p class="list">Curto animes.</p></li>
                 </ul>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div id="section3" class="section3">
-            <div class="article">
+        <section class="section" id="section-interesses">
+            <article>
                 <h2>Interesses</h2>
                 <ul>
-                    <li class="art">Programção</li>
-                    <li class="art">Automação</li>
-                    <li class="art">Sistemas Web</li>
+                    <li><p class="list">Programação</p></li>
+                    <li><p class="list">Automação</p></li>
+                    <li><p class="list">Sistemas Web</p></li>
                 </ul>
-            </div>
-        </div>
+            </article>
+        </section>
     </div>
 
-    <div class="footer">
-            <ul id="section4">
-                <li>
-                    <a href="#" class="fa fa-instagram"></a>
-                </li>
-                
-                <li>
-                    <a href="#" class="fa fa-facebook"></a>
-                </li>
-            </ul>
-        <p>ProSEmpre - EJECT © 2021.2 | Desenvolvido por Gilson Kedson</p>
-    </div>
+    <footer id="footer-page">
+        <div>
+            <p>ProSEmpre - EJECT © 2021.2 | Desenvolvido por Gilson Kedson</p>
+        </div>
+    </footer>
 </body>
 </html>
