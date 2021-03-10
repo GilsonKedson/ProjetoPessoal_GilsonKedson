@@ -1,0 +1,1 @@
+msg = 'Não há nada aqui, mas poderia ter. Pense nisso. Ass: Gilson Kedson';
