@@ -73,6 +73,10 @@ nav img{
     font-size: 30px;
 }
 
+p span{
+    margin-left: 30px;
+}
+
 .section-page{
     background-image: radial-gradient(circle, rgba(20, 89, 145, 0.445), #064c67, #5493ab);
     text-align: justify;
@@ -80,7 +84,7 @@ nav img{
     color: white;
 }
 
-.section-page h2{
+.section-page h2, h3{
     text-align: center;
 }
 
